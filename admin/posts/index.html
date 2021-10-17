@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="../../css/bootstrap.css">
+
+	<title>WebLog | Admin Section</title>
+</head>
+<body>
+
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+		<div class="container-md">
+			<!-- brand -->
+			<a href="#" class="navbar-brand"><span class="h2">Web Log</span></a>
+			<!-- toggler -->
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- menu -->
+			<div class="collapse navbar-collapse" id="navmenu">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Manage Post</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../users/index.html">Manage Users</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../topics/index.html">Manage Topic</a>
+					</li>
+					<li class="nav-item dropdown">
+			        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Avinash Bharti</a>
+			          	<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+			            	<li><a class="dropdown-item" href="#">Dashboard</a></li>
+			            	<li><a class="dropdown-item" href="#">Logout</a></li>
+			          	</ul>
+				    </li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- main section -->
+
+	<div class="row justify-content-around my-5 px-4">
+		<div class="col-12 col-md-9">
+			<a class="btn btn-secondary mx-2" href="create.html">Add Post</a>
+			<a class="btn btn-secondary mx-2" href="index.html">Manage Post</a>
+
+			<h2 class="text-center fw-bold">Manage Post</h2>
+			<table class="table">
+				<thead>
+				    <tr>
+				    	<th scope="col">SNo</th>
+				      	<th scope="col">Title</th>
+				      	<th scope="col">Author</th>
+				      	<th scope="col">Action</th>
+				    </tr>
+				</thead>
+				<tbody>
+				    <tr>
+				    	<th scope="row">1</th>
+				      	<td>this is my first post</td>
+				      	<td>Avinash Bharti</td>
+				      	<td class="text-warning">Edit</td>
+				      	<td class="text-danger">Delete</td>
+				      	<td class="text-succcess">Publish</td>
+				    </tr>
+				    <tr>
+				    	<th scope="row">2</th>
+				      	<td>this is my first post</td>
+				      	<td>Avinash Bharti</td>
+				      	<td class="text-warning">Edit</td>
+				      	<td class="text-danger">Delete</td>
+				      	<td class="text-succcess">Publish</td>
+				    </tr>
+				    <tr>
+				    	<th scope="row">3</th>
+				      	<td>this is my first post</td>
+				      	<td>Avinash Bharti</td>
+				      	<td class="text-warning">Edit</td>
+				      	<td class="text-danger">Delete</td>
+				      	<td class="text-succcess">Publish</td>
+				    </tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../../js/bootstrap.bundle.js"></script>
+</body>
+</html>

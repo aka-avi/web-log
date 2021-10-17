@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	<title>WebLog</title>
+</head>
+<body>
+
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+		<div class="container-md">
+			<!-- brand -->
+			<a href="#" class="navbar-brand"><span class="h2">Web Log</span></a>
+			<!-- toggler -->
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- menu -->
+			<div class="collapse navbar-collapse" id="navmenu">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Questions">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#instructors">Contact</a>
+					</li>
+					<li class="nav-item dropdown">
+			        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Avinash Bharti</a>
+			          	<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+			            	<li><a class="dropdown-item" href="#">Dashboard</a></li>
+			            	<li><a class="dropdown-item" href="#">Logout</a></li>
+			          	</ul>
+				    </li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- sign in form -->
+	<div class="row justify-content-around m-4">
+		<div class="col col-md-6 col-lg-4">
+			<div class="card shadow p-4">
+				<form>
+					<h2 class="text-center">Login</h2>
+			  		<div class="mb-3">
+			    		<label for="email" class="form-label">Email address</label>
+			    		<input type="email" class="form-control" id="email" placeholder="Enter your Email">
+			  		</div>
+			  		<div class="mb-3">
+			    		<label for="password" class="form-label">Password</label>
+			    		<input type="password" class="form-control" id="password" placeholder="Enter your Password">
+			  		</div>
+			  		<button type="submit" class="btn btn-primary">Login</button>
+			  		<p class="mb-0 mt-3">Dont Have an account</p>
+			  		<a href="register.html" class="nav-link text-dark lead">Sign Up Now</a>
+				</form>
+			</div>
+		</div>
+	</div>
